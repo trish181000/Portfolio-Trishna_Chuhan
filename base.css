@@ -1,6 +1,7 @@
 body{
     background-color: #f2bfdc;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:larger
 }
 
 /*navigation bar section*/
@@ -60,5 +61,14 @@ li a:hover {
     background-color: #ea97c6;
     padding: 11px;
 }
+footer a{
+   color: black;
+   font-weight: 900;
+}
+footer a:hover{
+    background-color: #ea97c6;
+    padding: 11px;
+}
+
 
 
