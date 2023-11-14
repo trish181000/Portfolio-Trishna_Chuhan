@@ -3,38 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./base.css" rel="stylesheet"/>
     <title>Trishna</title>
-    <style>
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      
-      td, th {
-        border: 2px solid #dddddd;
-        text-align: left;
-        padding: 10px;
-      }
-      
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-      </style>
 </head>
 <body>
   <!--Fun fact! The image below is what I created for my portfolio identity assignment.-->
     <figure>
         <img src="./Images/Logo.png" alt="Bubbly writing that says Trishna, the tails of the 'R' and 'A' are swooped toward the middle.">
     </figure>
-    <table>
-      <tr>
-        <th><p><a href="#Me">About Me</a></p></th>
-        <th> <p><a href="#Hobbies">Hobbies & Interests</a></p></th>
-        <th><p><a href="#Goals">Goals For This Year Ranked</a></p></th>
-        <th> <p><a href="#TV">TV Shows That I Like</a></p></th>
-        <th><p><a href="#Contact">Contact Information</a></p></th>
-      </tr>
-    </table>
+    <ul>
+        <li><a href="#Me">About Me</a></li>
+        <li><a href="#Hobbies">Hobbies & Interests</a></li>
+        <li><a href="#Goals">Goals For This Year Ranked</a></li>
+        <li><a href="#TV">TV Shows That I Like</a></li>
+        <li><a href="#Contact">Contact Information</a></li>
+    </ul>
 
     <h1 id="Me">About Me</h1>
     <!--Could add more below at a later time.-->
@@ -58,7 +41,8 @@
         </ol>
     
     <h2 id="TV">TV Shows That I like</h2>
-       <table>
+       <div class="second">
+      <table id="movie">
         <tr>
           <th>TV Show Title</th>
           <th>Favourite Character</th>
@@ -85,6 +69,8 @@
           <td><a href="https://www.imdb.com/title/tt7462410/?ref_=ttfc_fc_tt" target="_blank">7.1/10</a></td>
         </tr>
       </table>
+      </div>
+      </body>
     
     <h2 id="Contact">Contact Information</h2>
         <p>Visit my <a href="https://www.linkedin.com/in/trishnachuhan" target="_blank">LinkedIn</a>!</p>
