@@ -131,5 +131,7 @@ footer{
 #TV, #Goals, #Hobbies, #Me {
   text-align: center;
 }
-
-/*----page layout----*/
+#TV, #Goals, #Hobbies, #Me {
+  font-family: PosterBodoni BT;
+  font-size: xx-large;
+}
