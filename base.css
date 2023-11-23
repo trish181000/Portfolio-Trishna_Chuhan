@@ -1,0 +1,137 @@
+/*-----header-----*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-----overall body style-----*/
+body{
+    background-color: #f2bfdc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger
+}
+
+/*-----navigation bar section-----*/
+#nav{
+  border-radius: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  #l1{
+    float: left;
+  }
+  li a {
+    display: block;
+    color: #f2bfdc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+  }
+
+/*-----fave tv shows-----*/
+ #shows {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #333;
+  }
+  
+ #shows td, #shows th {
+    border: 2px solid #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #shows tr:nth-child(even) {
+    background-color: #f2bfdc;
+  }
+  #tahe, #got, #twot{
+    color: #f2bfdc;
+  }
+#atla a, #aot a{
+ color: #333;
+ font-weight: 900;
+}
+#got a:hover, #twot a:hover{
+    background-color: #111;
+    padding: 11px;
+  }
+#got a, #twot a {
+    color: #f2bfdc;
+    font-weight: 900;
+}
+#atla a:hover, #aot a:hover{
+    background-color: #ea97c6;
+    padding: 11px;
+}
+
+
+/*-----footer-----*/
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #f2bfdc;
+}
+footer a{
+   color: #f2bfdc;
+   font-weight: 900;
+}
+footer a:hover{
+    background-color: #111;
+    padding: 5px;
+}
+
+
+/*-----borders-----*/
+#sec1{
+  margin: 50px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+#sec2{
+  margin: 50px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#sec3{
+  margin: 50px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#sec4{
+  margin: 50px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+footer{
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+/*-----headings-----*/
+#TV, #Goals, #Hobbies, #Me {
+  text-align: center;
+}
+#TV, #Goals, #Hobbies, #Me {
+  font-family: PosterBodoni BT;
+  font-size: xx-large;
+}

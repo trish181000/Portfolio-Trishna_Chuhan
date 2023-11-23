@@ -3,44 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./base.css" rel="stylesheet"/>
     <title>Trishna</title>
-    <style>
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      
-      td, th {
-        border: 2px solid #dddddd;
-        text-align: left;
-        padding: 10px;
-      }
-      
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-      </style>
-</head>
-<body>
-  <!--Fun fact! The image below is what I created for my portfolio identity assignment.-->
+<!--Fun fact! The image below is what I created for my portfolio identity assignment.-->
     <figure>
         <img src="./Images/Logo.png" alt="Bubbly writing that says Trishna, the tails of the 'R' and 'A' are swooped toward the middle.">
     </figure>
-    <table>
-      <tr>
-        <th><p><a href="#Me">About Me</a></p></th>
-        <th> <p><a href="#Hobbies">Hobbies & Interests</a></p></th>
-        <th><p><a href="#Goals">Goals For This Year Ranked</a></p></th>
-        <th> <p><a href="#TV">TV Shows That I Like</a></p></th>
-        <th><p><a href="#Contact">Contact Information</a></p></th>
-      </tr>
-    </table>
-
+</head>
+<body>
+    <ul class id="nav">
+        <li class id="l1"><a href="#Me">About Me</a></li>
+        <li class id="l1"><a href="#Hobbies">Hobbies & Interests</a></li>
+        <li class id="l1"><a href="#Goals">My Goals</a></li>
+        <li class id="l1"><a href="#TV">Favourite TV Shows</a></li>
+        <li class id="l1"><a href="#Contact">Contact Information</a></li>
+    </ul>
+ 
+  <section id="sec1">
     <h1 id="Me">About Me</h1>
     <!--Could add more below at a later time.-->
      <p>Hi! My name is Trishna and I am 23 years old.</p>
      <img src="./Images/Me.png" alt="A photo of me smiling. I have short dark curly hair, brown eyes and a nose ring." style="width:300px;height:300px;">
+  </section>
 
+   <section id="sec2">
     <h2 id="Hobbies">Hobbies & Interests</h2>
      <ul>
         <li>Drawing and painting</li>
@@ -49,48 +35,57 @@
         <li>Reading comic books</li>
         <li>Watching good sci-fi and fantasy shows</li>
       </ul>
-   
-    <h2 id="Goals">Goals For This Year Ranked</h2>
+  </section>
+
+   <section id="sec3">
+    <h2 id="Goals">My Goals</h2>
         <ol>
          <li>Get good grades.</li>
          <li>Go up a belt in Taekwondo.</li>
          <li>Go to the gym consistently.</li>
         </ol>
+   </section>
     
-    <h2 id="TV">TV Shows That I like</h2>
-       <table>
-        <tr>
+   <section id="sec4">
+    <h2 id="TV">Favourite TV Shows</h2>
+      <table id="shows">
+        <tr id="tahe">
           <th>TV Show Title</th>
           <th>Favourite Character</th>
           <th>IMDB Rating</th>
         </tr>
-        <tr>
+        <tr id="atla">
           <td>Avatar the Last Airbender</td>
           <td>Zuko</td>
           <td><a href="https://www.imdb.com/title/tt0417299/?ref_=nv_sr_srsg_6_tt_8_nm_0_q_avatar%2520the%2520" target="_blank">9.3/10</a></td>
         </tr>
-        <tr>
+        <tr id="got">
           <td>Game of Thrones</td>
           <td>Tyrion Lannister</td>
           <td><a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_1_tt_7_nm_0_q_game" target="_blank">9.2/10</a></td>
         </tr>
-        <tr>
+        <tr id="aot">
           <td>Attack on Titan</td>
           <td>Levi Ackermann</td>
           <td><a href="https://www.imdb.com/title/tt2560140/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_atta" target="_blank">9.0/10</a></td>
         </tr>
-        <tr>
+        <tr id="twot">
           <td>(Honourable mention) The Wheel of Time</td>
           <td>Egwene Al'Vere</td>
           <td><a href="https://www.imdb.com/title/tt7462410/?ref_=ttfc_fc_tt" target="_blank">7.1/10</a></td>
         </tr>
       </table>
-    
-    <h2 id="Contact">Contact Information</h2>
-        <p>Visit my <a href="https://www.linkedin.com/in/trishnachuhan" target="_blank">LinkedIn</a>!</p>
+    </section>
+</body>
     
      <footer>
+      <section id="sec5">
+      <h3 id="Contact">Contact Information </h3>
+      <p>Visit my <a href="https://www.linkedin.com/in/trishnachuhan" target="_blank">LinkedIn</a>!</p>
+      </section>
+      <section id="copyright">
           <p>All rights reserved under CC-BY-NC-ND License.</p>
+      </section>
      </footer>  
 </body>
 </html>
