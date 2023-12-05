@@ -1,5 +1,5 @@
 // Date:
-const d = new Date();
+const d = new Date().getFullYear();
 document.getElementById("date").innerHTML = d;
 
 // Button Alert:
@@ -26,6 +26,8 @@ var x = 1;
 function buttonClick() {
     document.getElementById('inc').value = ++x;
     console.log('Hi')
+    
+    // If-Else:
     if (x % 2 === 0) {
       document.getElementById('inc').classList.add('even')
       document.getElementById('inc').classList.remove('odd') 
@@ -34,3 +36,5 @@ function buttonClick() {
       document.getElementById('inc').classList.remove('even')
      }
 }
+
+// Ordered List:
