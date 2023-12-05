@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./base.css" rel="stylesheet"/>
     <title>Trishna</title>
 <!--Fun fact! The image below is what I created for my portfolio identity assignment.-->
     <figure>
         <img src="./Images/Logo.png" alt="Bubbly writing that says Trishna, the tails of the 'R' and 'A' are swooped toward the middle.">
     </figure>
+    <link href="./base.css" rel="stylesheet"/>
+    <script defer src="file.js"></script>
 </head>
+
+
 <body>
     <ul class id="nav">
         <li class id="l1"><a href="#Me">About Me</a></li>
@@ -19,14 +24,17 @@
         <li class id="l1"><a href="#Contact">Contact Information</a></li>
     </ul>
  
-  <section id="sec1">
+  
+    <section>
     <h1 id="Me">About Me</h1>
     <!--Could add more below at a later time.-->
      <p>Hi! My name is Trishna and I am 23 years old.</p>
      <img src="./Images/Me.png" alt="A photo of me smiling. I have short dark curly hair, brown eyes and a nose ring." style="width:300px;height:300px;">
+     <button id="btn-alert" onclick="alert()">Click for a fun fact!</button>
   </section>
 
-   <section id="sec2">
+  
+  <section>
     <h2 id="Hobbies">Hobbies & Interests</h2>
      <ul>
         <li>Drawing and painting</li>
@@ -37,7 +45,7 @@
       </ul>
   </section>
 
-   <section id="sec3">
+   <section>
     <h2 id="Goals">My Goals</h2>
         <ol>
          <li>Get good grades.</li>
@@ -46,7 +54,8 @@
         </ol>
    </section>
     
-   <section id="sec4">
+  
+   <section>
     <h2 id="TV">Favourite TV Shows</h2>
       <table id="shows">
         <tr id="tahe">
@@ -75,17 +84,30 @@
           <td><a href="https://www.imdb.com/title/tt7462410/?ref_=ttfc_fc_tt" target="_blank">7.1/10</a></td>
         </tr>
       </table>
+      <button id="hvr-btn">Hover to find out what I am watching right now!</button>
     </section>
-</body>
     
-     <footer>
-      <section id="sec5">
+    <div>
+    <h3>Incrementing Numbers</h3>
+    <button id="btn-counter" onclick="buttonClick()">Click Me</button>
+    <p id="text-counter">Number:</p>
+    <input type="text" id="inc" value="1"></input>
+    <h3>Numbers List</h3>
+    <ol id="numbers"></ol>
+    </div>
+
+   
+    <footer>
+      <section>
       <h3 id="Contact">Contact Information </h3>
       <p>Visit my <a href="https://www.linkedin.com/in/trishnachuhan" target="_blank">LinkedIn</a>!</p>
       </section>
       <section id="copyright">
           <p>All rights reserved under CC-BY-NC-ND License.</p>
       </section>
+      <p id="date"></p>
      </footer>  
-</body>
+
+
+    </body>
 </html>
