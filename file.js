@@ -20,3 +20,8 @@ function mouseOut() {
 }
 
 // Incrementing Button:
+var i = 0;
+function buttonClick() {
+    document.getElementById('inc').value = ++i;
+    console.log('Hi')
+}
