@@ -87,6 +87,8 @@ footer a:hover{
     background-color: #111;
     padding: 5px;
 }
+#date {color: #f2bfdc;
+}
 
 
 /*-----borders-----*/
@@ -111,4 +113,31 @@ footer{
 #TV, #Goals, #Hobbies, #Me {
   font-family: PosterBodoni BT;
   font-size: xx-large;
+}
+
+/*-----button style-----*/
+button {
+  margin: 10px;
+  border: 2px solid #ea97c6;
+  border-radius: 8px;
+  padding: 10px;
+  color: #111;
+  background-color: #ea97c6;
+  font-size:large
+}
+
+div {
+  margin: 50px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.even {
+  color: red;
+}
+.odd {
+  color: blue;
 }
