@@ -137,3 +137,12 @@ footer{
   font-family: PosterBodoni BT;
   font-size: xx-large;
 }
+
+/*-----button alert-----*/
+#btn-alert {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  color: #f2bfdc;
+  background-color: #333;
+}
