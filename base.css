@@ -140,9 +140,18 @@ footer{
 
 /*-----button alert-----*/
 #btn-alert {
-  border: 2px solid #333;
+  border: 2px solid #ea97c6;
   border-radius: 8px;
   padding: 10px;
-  color: #f2bfdc;
-  background-color: #333;
+  color: #111;
+  background-color: #ea97c6;
+}
+
+/*-----Hover Button-----*/
+#hvr-btn {
+  border: 2px solid #ea97c6;
+  border-radius: 8px;
+  padding: 10px;
+  color: #111;
+  background-color: #ea97c6;
 }
