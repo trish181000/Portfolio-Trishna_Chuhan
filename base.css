@@ -5,6 +5,39 @@ img{
     margin-right: auto;
 }
 
+
+/*-----navigation bar section-----*/
+#nav{
+  border-radius: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    #li1{
+      float: left;
+    }
+  }
+li a {
+    display: block;
+    color: #f2bfdc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #111;
+  }
+
+
+  /*-----headings-----*/
+h3, h2, h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+
 /*-----overall body style-----*/
 body{
     background-color: #f2bfdc;
@@ -20,49 +53,23 @@ section {
   padding-bottom: 20px;
 }
 
-/*-----navigation bar section-----*/
- #nav{
-  border-radius: 8px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    #li1{
-      float: left;
-    }
-  }
-  
-li a {
-    display: block;
-    color: #f2bfdc;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-li a:hover {
-    background-color: #111;
-  }
-
 
   /*-----fave tv shows-----*/
- #shows {
+#shows {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
     background-color: #333;
   }
-  
- #shows td, #shows th {
+#shows td, #shows th {
     border: 2px solid #333;
     text-align: center;
     padding: 10px;
   }
-  
-  #shows tr:nth-child(even) {
+#shows tr:nth-child(even) {
     background-color: #f2bfdc;
   }
-  #tahe, #got, #twot{
+#tahe, #got, #twot{
     color: #f2bfdc;
   }
 #atla a, #aot a{
@@ -100,13 +107,6 @@ footer a:hover{
     padding: 5px;
 }
 #date {color: #f2bfdc;
-}
-
-/*-----headings-----*/
-h3, #TV, #Goals, #Hobbies, #Me, #Contact {
-  font-family: "Lobster", sans-serif;
-  font-size: xx-large;
-  text-align: center;
 }
 
 /*-----button style-----*/
