@@ -1,4 +1,4 @@
-/*-----header-----*/
+/*-----Images-----*/
 img {
   display: block;
     margin-left: auto;
@@ -8,6 +8,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
 /*-----navigation bar section-----*/
 #nav{
   border-radius: 8px;
@@ -16,7 +18,7 @@ img {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    #li1{
+    .li1{
       float: left;
     }
   }
@@ -57,17 +59,17 @@ section, div {
 
 
   /*-----fave tv shows-----*/
-#shows {
+table {
     border-collapse: collapse;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #333;
   }
-#shows td, #shows th {
+table td, table th {
     border: 2px solid #333;
     text-align: center;
-    padding: 10px;
   }
-#shows tr:nth-child(even) {
+table tr:nth-child(even) {
     background-color: #f2bfdc;
   }
 #tahe, #got, #twot{
@@ -79,7 +81,6 @@ section, div {
 }
 #got a:hover, #twot a:hover{
     background-color: #111;
-    padding: 11px;
   }
 #got a, #twot a {
     color: #f2bfdc;
@@ -87,7 +88,6 @@ section, div {
 }
 #atla a:hover, #aot a:hover{
     background-color: #ea97c6;
-    padding: 11px;
 }
 
 
