@@ -5,12 +5,6 @@ img{
     margin-right: auto;
 }
 
-/*-----overall body style-----*/
-body{
-    background-color: #f2bfdc;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:larger
-}
 
 /*-----navigation bar section-----*/
 #nav{
@@ -20,39 +14,61 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    #li1{
+      float: left;
+    }
   }
-  #l1{
-    float: left;
-  }
-  li a {
+li a {
     display: block;
     color: #f2bfdc;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+  }
 li a:hover {
     background-color: #111;
   }
 
-/*-----fave tv shows-----*/
- #shows {
-    font-family: Arial, Helvetica, sans-serif;
+
+  /*-----headings-----*/
+h3, h2, h1 {
+  font-family: "Lobster", Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+
+/*-----overall body style-----*/
+body{
+    background-color: #f2bfdc;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+section, div {
+  margin: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+
+  /*-----fave tv shows-----*/
+#shows {
     border-collapse: collapse;
     width: 100%;
     background-color: #333;
   }
-  
- #shows td, #shows th {
+#shows td, #shows th {
     border: 2px solid #333;
     text-align: center;
     padding: 10px;
   }
-  
-  #shows tr:nth-child(even) {
+#shows tr:nth-child(even) {
     background-color: #f2bfdc;
   }
-  #tahe, #got, #twot{
+#tahe, #got, #twot{
     color: #f2bfdc;
   }
 #atla a, #aot a{
@@ -78,6 +94,8 @@ footer{
     text-align: center;
     background-color: #333;
     color: #f2bfdc;
+    order: 2px solid #333;
+    border-radius: 8px;
 }
 footer a{
    color: #f2bfdc;
@@ -91,30 +109,6 @@ footer a:hover{
 }
 
 
-/*-----borders-----*/
-section {
-  margin: 50px;
-  border: 2px solid #333;
-  border-radius: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-}
-
-footer{
-  border: 2px solid #333;
-  border-radius: 8px;
-}
-
-/*-----headings-----*/
-#TV, #Goals, #Hobbies, #Me {
-  text-align: center;
-}
-#TV, #Goals, #Hobbies, #Me {
-  font-family: PosterBodoni BT;
-  font-size: xx-large;
-}
-
 /*-----button style-----*/
 button {
   margin: 10px;
@@ -123,18 +117,9 @@ button {
   padding: 10px;
   color: #111;
   background-color: #ea97c6;
+  font-family: "Sansita", Arial, Helvetica, sans-serif;
   font-size:large
 }
-
-div {
-  margin: 50px;
-  border: 2px solid #333;
-  border-radius: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-}
-
 .even {
   color: red;
 }
