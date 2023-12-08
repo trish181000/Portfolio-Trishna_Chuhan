@@ -32,7 +32,7 @@ li a:hover {
 
   /*-----headings-----*/
 h3, h2, h1 {
-  font-family: "Lobster", sans-serif;
+  font-family: "Lobster", Arial, Helvetica, sans-serif;
   font-size: xx-large;
   text-align: center;
 }
@@ -41,8 +41,8 @@ h3, h2, h1 {
 /*-----overall body style-----*/
 body{
     background-color: #f2bfdc;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size:larger
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 section {
   margin: 50px;
@@ -56,7 +56,6 @@ section {
 
   /*-----fave tv shows-----*/
 #shows {
-    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
     background-color: #333;
@@ -109,6 +108,7 @@ footer a:hover{
 #date {color: #f2bfdc;
 }
 
+
 /*-----button style-----*/
 button {
   margin: 10px;
@@ -117,9 +117,9 @@ button {
   padding: 10px;
   color: #111;
   background-color: #ea97c6;
+  font-family: "Sansita", Arial, Helvetica, sans-serif;
   font-size:large
 }
-
 div {
   margin: 50px;
   border: 2px solid #333;
@@ -127,8 +127,8 @@ div {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
+  font-family: "Sansita", Arial, Helvetica, sans-serif;
 }
-
 .even {
   color: red;
 }
