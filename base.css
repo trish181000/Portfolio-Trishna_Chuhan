@@ -3,7 +3,6 @@ img {
   display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 18px;
 }
 .responsive {
   max-width: 100%;
