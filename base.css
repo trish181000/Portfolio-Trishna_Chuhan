@@ -103,12 +103,10 @@ footer a:hover{
 }
 
 /*-----headings-----*/
-#TV, #Goals, #Hobbies, #Me {
-  text-align: center;
-}
-#TV, #Goals, #Hobbies, #Me {
-  font-family: PosterBodoni BT;
+h3, #TV, #Goals, #Hobbies, #Me, #Contact {
+  font-family: "Lobster", sans-serif;
   font-size: xx-large;
+  text-align: center;
 }
 
 /*-----button style-----*/
