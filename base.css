@@ -1,11 +1,13 @@
 /*-----header-----*/
-img{
-    display: block;
+img {
+  display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 /*-----navigation bar section-----*/
 #nav{
   border-radius: 8px;
