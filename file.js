@@ -1,4 +1,4 @@
-// Date:
+ // Date:
 const d = new Date().getFullYear();
 document.getElementById("date").innerHTML = d;
 
