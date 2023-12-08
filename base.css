@@ -60,6 +60,7 @@ section, div {
 
   /*-----fave tv shows-----*/
 table {
+  display: block;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
